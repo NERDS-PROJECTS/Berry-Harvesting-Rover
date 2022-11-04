@@ -7,4 +7,4 @@ A rover bot that utilizes computer vision and a robotic arm to detect and harves
 In urban farming, it is possible to automate many things, including watering of plants as well as pest control. However, automated harvesting has always been a challenge, since in berry-type plants different individual fruits ripen at different times. Hence, for this purpose, a rover capable of using computer vision to differentiate between ripened and unripened fruits is of great use.
 
 # Design of robot
-
+At the brain of the rover, we will use the Arduino Mega 2560 based on the ATmega2560.

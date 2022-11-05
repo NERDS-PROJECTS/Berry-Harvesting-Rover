@@ -9,6 +9,9 @@ In urban farming, it is possible to automate many things, including watering of 
 # Design of robot
 As the central control unit of the rover, we will use the Arduino Mega 2560 microcontroller based on the ATmega2560. For employing computer vision, we will use a vision sensor(camera) along with a Raspberry Pi 3 Model B. The bot must be capable of moving forward, backward and also take left or right turns. Moreover, it should be capable of precisely picking and dropping fruits in the correct areas. Hence a robotic arm with a specialised gripping mechanism is necessary. The major goal is to make achieve high accuracy at low cost. A strong and sturdy build is also desirable since it will be lifting rather heavy loads. It will be fully automated with the help of coloured guiding lines on the floor. Hence, no manual operation/controller is necessary. 
 
+![components](https://user-images.githubusercontent.com/91414273/200113429-9b8ff518-fe70-4226-8c62-05c6f1df11e3.jpg)
+
+
 - ## Components necessary
 
 1. Arduino Mega 2560
@@ -21,9 +24,13 @@ As the central control unit of the rover, we will use the Arduino Mega 2560 micr
 8. DC motors
 9. Robotic arm
 
+![motor connection](https://user-images.githubusercontent.com/91414273/200113440-5c4aa47c-56d5-4f85-9309-1608daabac5f.jpg)
+
 - ## Robotic arm design
 
 A functional robotic arm can be created for prototyping purposes using a simple arrangement of one servo motor for up-and-down motion, and a DC motor for plucking the fruits. However, a special cup-shaped gripper is required so that the pressure from the DC motor does not squish the fruit.
+
+![gripper_opened](https://user-images.githubusercontent.com/91414273/200113355-a71e12ad-61c2-49b1-9877-c6f4bd8bd9c4.png)
 
 - ## Procedure for fruit detection
 

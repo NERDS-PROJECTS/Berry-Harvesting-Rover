@@ -19,5 +19,12 @@ As the central control unit of the rover, we will use the Arduino Mega 2560 micr
 6. Motor Controller
 7. Adapter
 8. DC motors
+9. Robotic arm
+
+- ## Robotic arm design
+
+A functional robotic arm can be created for prototyping purposes using a simple arrangement of one servo motor for up-and-down motion, and a DC motor for plucking the fruits. However, a special cup-shaped gripper is required so that the pressure from the DC motor does not squish the fruit.
+
+
 
 

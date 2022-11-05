@@ -54,10 +54,18 @@ The fruit detection algorithm can be viewed in fruit_detection.py file.
 
 # Bot Navigation
 
-Nvigation of bot will be done through a grid of lines with plants on a few or all of the nodes. Such a bot can be easily implemented using the line follower principle and IR sensors. [Here](https://create.arduino.cc/projecthub/saher-iqbal/line-follower-robot-36516b) is a simple tutorial on implementing a line follower algorithm.
+Navigation of bot will be done through a grid of lines with plants on a few or all of the nodes. Such a bot can be easily implemented using the line follower principle and IR sensors. [Here](https://create.arduino.cc/projecthub/saher-iqbal/line-follower-robot-36516b) is a simple tutorial on implementing a line follower algorithm.
 
 ![Line follower flowchart](https://user-images.githubusercontent.com/91414273/200115025-c966dc15-c16c-43df-b046-947b10aedc71.jpg)
 
 The code for bot navigation algorithm can be found in the bot_navigation.ino file.
 
+# Scope for further improvement
 
+-In the present iteration, bot is still dependant on a wired connection with a computer to start it. A fully automated bot can be the next step where it automatically starts up at a certain suitable time of the day, stores data about number of fruits collected locally, and turns off/hibernates while not in use.
+-Similarly, an automated charging system can be implemented.
+-Once a fully automated system is perfected, it can be scaled up to cover entire plantations efficiently with little to no manual labour.
+
+# References
+
+https://www.irjet.net/archives/V7/i3/IRJET-V7I3721.pdf

@@ -35,34 +35,29 @@ A functional robotic arm can be created for prototyping purposes using a simple 
 
 - ## Procedure for fruit detection
 
-• The bot will take a picture of tree when stopped before it.
-
-• The image will be processed to find contours in the image.
-
-• Bounding boxes will be drawn for each contour and the areas will be found.
-
-• The fruit block will be detected by comparing the contour area with a threshold range (the range will be found after initial testing)
-
-• When the block is found the bounding rectangle will be written as a new & separate image for further processing.
-
-• This image will be resized to match the sample images.
-
-• The image will be blurred using cv2.medianBlur() and more noise will be removed by using erosion techniques.
-
-• The image will be processed again to find contours in the image.
-
-• An upper & lower limit of contour area will be saved so that all other areas outside this range will be neglected.
-
-• Within this range, three different ranges will be predefined for finding the size of fruit i.e. max, large and small.
-
-• To find the colour of fruit we will create a bounding rectangle of the found fruit contour. A function will return the length and breadth of rectangle along with co-ordinates of point shown below.
-
-• Then we will move downward from the pixel co-ordinate shown below and will find a point where the colour value changes sharply. This colour value will be stored for identification purposes.
-
-• The type of fruit will be identified by three different colour ranges for each fruit (found after initial testing).
-
-• Finally, the size and type of fruit will be stored and displayed on the terminal. 
+1. The bot will take a picture of tree when stopped before it.
+2. The image will be processed to find contours in the image.
+3. Bounding boxes will be drawn for each contour and the areas will be found.
+4. The fruit block will be detected by comparing the contour area with a threshold range (the range will be found after initial testing)
+5. When the block is found the bounding rectangle will be written as a new & separate image for further processing.
+6. This image will be resized to match the sample images.
+7. The image will be blurred using cv2.medianBlur() and more noise will be removed by using erosion techniques.
+8. The image will be processed again to find contours in the image.
+9. An upper & lower limit of contour area will be saved so that all other areas outside this range will be neglected.
+10. Within this range, three different ranges will be predefined for finding the size of fruit i.e. max, large and small.
+11. To find the colour of fruit we will create a bounding rectangle of the found fruit contour. A function will return the length and breadth of rectangle along with co-ordinates of point shown below.
+12. Then we will move downward from the pixel co-ordinate shown below and will find a point where the colour value changes sharply. This colour value will be stored for identification purposes.
+13. The type of fruit will be identified by three different colour ranges for each fruit (found after initial testing).
+14. Finally, the size and type of fruit will be stored and displayed on the terminal. 
 
 The fruit detection algorithm can be viewed in fruit_detection.py file.
+
+# Bot Navigation
+
+Nvigation of bot will be done through a grid of lines with plants on a few or all of the nodes. Such a bot can be easily implemented using the line follower principle and IR sensors. [Here](https://create.arduino.cc/projecthub/saher-iqbal/line-follower-robot-36516b) is a simple tutorial on implementing a line follower algorithm.
+
+![Line follower flowchart](https://user-images.githubusercontent.com/91414273/200115025-c966dc15-c16c-43df-b046-947b10aedc71.jpg)
+
+The code for bot navigation algorithm can be found in the bot_navigation.ino file.
 
 

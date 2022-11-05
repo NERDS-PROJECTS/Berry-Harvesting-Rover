@@ -11,6 +11,9 @@ As the central control unit of the rover, we will use the Arduino Mega 2560 micr
 
 ![components](https://user-images.githubusercontent.com/91414273/200113429-9b8ff518-fe70-4226-8c62-05c6f1df11e3.jpg)
 
+We will use 2 DC geared motors with position encoders mounted on its shaft to traverse the arena along the black line. The feedback from the position encoders will be used to stop the robot at a given distance from the tree.
+
+![motor connection](https://user-images.githubusercontent.com/91414273/200113440-5c4aa47c-56d5-4f85-9309-1608daabac5f.jpg)
 
 - ## Components necessary
 
@@ -23,8 +26,6 @@ As the central control unit of the rover, we will use the Arduino Mega 2560 micr
 7. Adapter
 8. DC motors
 9. Robotic arm
-
-![motor connection](https://user-images.githubusercontent.com/91414273/200113440-5c4aa47c-56d5-4f85-9309-1608daabac5f.jpg)
 
 - ## Robotic arm design
 

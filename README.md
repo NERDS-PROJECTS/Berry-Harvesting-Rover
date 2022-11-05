@@ -62,9 +62,9 @@ The code for bot navigation algorithm can be found in the bot_navigation.ino fil
 
 # Scope for further improvement
 
--In the present iteration, bot is still dependant on a wired connection with a computer to start it. A fully automated bot can be the next step where it automatically starts up at a certain suitable time of the day, stores data about number of fruits collected locally, and turns off/hibernates while not in use.
--Similarly, an automated charging system can be implemented.
--Once a fully automated system is perfected, it can be scaled up to cover entire plantations efficiently with little to no manual labour.
+- In the present iteration, bot is still dependant on a wired connection with a computer to start it. A fully automated bot can be the next step where it automatically starts up at a certain suitable time of the day, stores data about number of fruits collected locally, and turns off/hibernates while not in use.
+- Similarly, an automated charging system can be implemented.
+- Once a fully automated system is perfected, it can be scaled up to cover entire plantations efficiently with little to no manual labour.
 
 # References
 

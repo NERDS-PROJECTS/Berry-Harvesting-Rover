@@ -35,20 +35,33 @@ A functional robotic arm can be created for prototyping purposes using a simple 
 - ## Procedure for fruit detection
 
 • The bot will take a picture of tree when stopped before it.
+
 • The image will be processed to find contours in the image.
+
 • Bounding boxes will be drawn for each contour and the areas will be found.
+
 • The fruit block will be detected by comparing the contour area with a threshold range (the range will be found after initial testing)
+
 • When the block is found the bounding rectangle will be written as a new & separate image for further processing.
+
 • This image will be resized to match the sample images.
+
 • The image will be blurred using cv2.medianBlur() and more noise will be removed by using erosion techniques.
+
 • The image will be processed again to find contours in the image.
+
 • An upper & lower limit of contour area will be saved so that all other areas outside this range will be neglected.
+
 • Within this range, three different ranges will be predefined for finding the size of fruit i.e. max, large and small.
+
 • To find the colour of fruit we will create a bounding rectangle of the found fruit contour. A function will return the length and breadth of rectangle along with co-ordinates of point shown below.
+
 • Then we will move downward from the pixel co-ordinate shown below and will find a point where the colour value changes sharply. This colour value will be stored for identification purposes.
+
 • The type of fruit will be identified by three different colour ranges for each fruit (found after initial testing).
+
 • Finally, the size and type of fruit will be stored and displayed on the terminal. 
 
-
+The fruit detection algorithm can be viewed in fruit_detection.py file.
 
 

@@ -29,7 +29,7 @@ We will use 2 DC geared motors with position encoders mounted on its shaft to tr
 
 - ## Robotic arm design
 
-A functional robotic arm can be created for prototyping purposes using a simple arrangement of one servo motor for up-and-down motion, and a DC motor for plucking the fruits. However, a special cup-shaped gripper is required so that the pressure from the DC motor does not squish the fruit.
+A functional robotic arm can be created for prototyping purposes using a simple arrangement of two servo motors for up-and-down motion, and a DC motor for plucking the fruits. However, a special cup-shaped gripper is required so that the pressure from the DC motor does not squish the fruit.
 
 ![gripper_opened](https://user-images.githubusercontent.com/91414273/200113355-a71e12ad-61c2-49b1-9877-c6f4bd8bd9c4.png)
 
